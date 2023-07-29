@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Girassol&display=swap"
       rel="stylesheet"
     />
-</head>
+ </head>
 <body>
     <main>
         <header>
@@ -61,7 +61,7 @@
     <footer>
     <p>Created by <a href="https://www.linkedin.com/in/nisha-bano-809898245/">Nisha Bano</a></p>
     </footer>
-</main>
+    </main>
 <script src='../js/script.js'></script>
 </body>
 </html>
