@@ -1,1 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  height: 93vh;
+  width: 100vw;
+  background-image: url(/img/bg.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  display: flex;
+  margin-top: 15px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+header h2 {
+  font-family: "Poppins", sans-serif;
+  white-space: nowrap;
+  font-size: 33px;
+  padding: 20px;
+  text-shadow: 5px 6px 10px black, 0 0 25px skyblue;
+}
+header span h2 {
+  font-family: "Dancing Script", cursive;
+  white-space: nowrap;
+  font-size: 49px;
+  margin-top: 10px;
+}
+main {
+  height: 89%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Courier New", Courier, monospace;
+}
+form,
+#regform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  height: 72%;
+  border-radius: 24px;
+  border: 1px solid black;
+  box-shadow: 0 0 0.35rem black;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#regform {
+  height: 94%;
+}
+.Username {
+  width: 300px;
+}
+form p a {
+  color: aqua;
+  text-decoration: none;
+}
+form p a:hover {
+  color: #e67e22;
+}
+form input {
+  margin: 2rem auto;
+  height: 1.5rem;
+  width: 60%;
+  background-color: rgb(0, 0, 0, 0.5); /*rgba(55, 40, 164, 0.5)*/
+  border: none;
+  padding: 5px;
+  font-size: 14px;
+  color: rgb(194, 189, 189);
+  outline: none;
+  border-radius: 20px;
+  box-shadow: inset -3px rgb(0, 0, 0, 0.4);
+}
+form input:focus {
+  background-color: rgb(41, 41, 41);
+  border: 0.1rem rgb(59, 0, 153) solid;
+}
+form p {
+  width: 290px;
+  text-align: left;
+  margin: 0 0 -1.8rem 0.5rem;
+  letter-spacing: 0.5px;
+  font-family: serif;
+  font-size: 21px;
+}
+form span p {
+  width: 300px;
+  text-align: left;
+  margin: 0 0 -1.8rem 0.5rem;
+  letter-spacing: 0.5px;
+  font-family: serif;
+  font-size: 20px;
+}
+#submit {
+  margin: 14px auto;
+  margin-top: 0;
+  width: 135px;
+  height: 37px;
+  background: linear-gradient(
+    to right,
+    rgb(184, 17, 39),
+    rgb(92, 14, 92),
+    rgb(55, 55, 233)
+  );
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  outline: none;
+}
+#submit:hover {
+  background: linear-gradient(
+    to right,
+    rgb(209, 44, 160),
+    rgb(99, 48, 208),
+    rgb(103, 103, 187)
+  );
+}
+#submit:active {
+  border: none;
+  background: linear-gradient(to right, #5f2c82, #49a09d);
+}
+#reg {
+  margin-top: 16px;
+  text-align: center;
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 45%;
+  }
+  header h2 {
+    font-size: 27px;
+  }
+  header span h2 {
+    font-size: 45px;
+  }
+}
+@media (max-width: 968px) {
+  header h2 {
+    font-size: 22px;
+  }
+  form,
+  #regform {
+    width: 66%;
+    height: 69%;
+  }
+  form p {
+    width: 220px;
+  }
+  .Username {
+    width: 217px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 450px) {
+  header h2 {
+    font-size: 19px;
+  }
+  header span h2 {
+    font-size: 26px;
+  }
+  form,
+  #regform {
+    width: 90%;
+    height: 65%;
+  }
+  form p {
+    width: 180px;
+    font-size: 18px;
+  }
+  form span p {
+    width: 280px;
+
+    font-size: 15px;
+  }
+  .Username {
+    width: 217px;
+    font-size: 16px;
+  }
+  #submit {
+    width: 110px;
+    height: 27px;
+  }
+}
 
